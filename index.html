@@ -10,6 +10,48 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: Cinzel;
+            box-sizing: border-box;
+            color: rgb(75, 75, 75);
+        }
+
+        body {
+            background-image: url("images/bg.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        body,
+        html {
+            height: 98%;
+            width: 99%;
+        }
+
+        div.center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+
+        .content {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        div.bottom {
+            position: fixed;
+            width: 100%;
+            bottom: 10px;
+        }
+    </style>
 </head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45677435-1"></script>
 <script>
@@ -18,7 +60,14 @@
     gtag('js', new Date());
     gtag('config', 'UA-45677435-1');
 </script>
-<h1>Bal</h1>
+
+<div class="content">
+    <h1 style="text-align:center">Merhaba ben Bal</h1>
+    <h2 style="text-align:center">Aranıza 21.03.2021'de soğuk bir Ankara gününde katıldım</h2>
+    <h2 style="text-align:center">Şu günlerimi ailem ile birlikte mutlu, eğlenceli ve bol oyunlu geçiriyorum</h2>
+    <h2 style="text-align:center">Siz çocouklar şimdilik söyleyeceklerim bu kadar kendinize dikkat edinnn :)</h2>
+</div>
+
 <div class="bottom" style="text-align:center;padding:10px;margin-top:7px;"><br><br>&copy;2021 <a
         href="https://hamuryen.com">Burak Hamuryen</a></div>
 </body>
